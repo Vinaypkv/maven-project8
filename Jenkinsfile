@@ -18,7 +18,7 @@ pipeline {
             stage ('AppCodeCheckout') {
                 steps {
 
-                    git 'https://github.com/Vinaypkv/vinay-devopsLab-maven1.git'
+                    git 'https://github.com/Vinaypkv/maven-project8.git'
 
                 }
             }
