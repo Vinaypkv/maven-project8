@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:x86_64-alpine-jre-11.0.18_10
+FROM adoptopenjdk/java-1.11.0-openjdk-amd64
 VOLUME /tmp
 COPY target/*.jar app.jar
 CMD java -jar app.jar
