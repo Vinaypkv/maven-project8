@@ -46,10 +46,10 @@ pipeline {
     
 
 
-                    sh 'docker build . -t vinaypkvp/app43:test'
+                    sh 'docker build . -t vinaypkvp/app44:test'
                     sh 'docker login -u vinaypkvp -p ${DOCKER_PWD}'
-                    sh 'docker push vinaypkvp/app43:test'
-                    sh 'docker run -p 94:8080 -d vinaypkvp/app43:test'
+                    sh 'docker push vinaypkvp/app44:test'
+                    sh 'docker run -p 93:8080 -d vinaypkvp/app44:test'
                     
                 }
 
